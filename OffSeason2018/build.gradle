@@ -28,7 +28,7 @@ deploy {
 repositories {
 
     maven {
-        url  "https://dl.bintray.com/bak3dchips/FIRST-Segmented-Display-Drivers" 
+        url  "https://dl.bintray.com/bak3dnet/robotics" 
     }
 
 }
@@ -39,7 +39,7 @@ dependencies {
     compile wpilib()
     compile ctre()
     compile navx()
-    compile 'net.bak3dnet.robotics', name: 'display-drivers', version: '1.+'
+    compile 'robotics:Display-Drivers:1.0'
 }
 
 // Setting up my Jar File. In this case, adding all libraries into the main jar ('fat jar')
