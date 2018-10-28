@@ -47,7 +47,7 @@ dependencies {
     compile wpilib()
     compile ctre()
     compile navx()
-    compile 'robotics:Display-Drivers:1.0'
+    compile 'robotics:Display-Drivers:1.0.1'
 }
 
 // Setting up my Jar File. In this case, adding all libraries into the main jar ('fat jar')
